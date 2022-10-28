@@ -1,0 +1,303 @@
+.navbar-dark .navbar-nav .nav-link {
+    font-family: Gill Sans, sans-serif !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  color: #333;
+  background-color: #FFF;
+  font-size:  19px;
+}
+
+
+h1 {
+    /*margin: auto;*/
+    text-align: left;
+    color: #333;
+    padding: 50px;
+}
+.home {
+    margin: auto;
+    text-align: center;
+    color: #333;
+    padding: 0px;
+    /*padding: 20px 200px 20px 0px;*/
+}
+h2 {
+    margin: auto;
+    text-align: left;
+    justify-content: left;
+    color: #333;
+    padding: 20px 0px;
+}
+h3 {
+    font-size: larger;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+.links a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #333;
+}
+.links a:hover {
+  background-color: #111;
+  color: #EEE;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.menu-container {
+    color: #FFF;
+    background-color: #EEE;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    color: #333;
+    padding: 0px 20px;
+}
+.name {
+    font-size: larger;
+    padding: 14px 16px;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-container {
+    color: #FFF;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+.header {
+    width: 900px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section {
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+  background-color: #FFF;
+  justify-content: center;
+}
+.home-intro {
+    width: 400px;
+}
+.welcome {
+    text-align: left;
+}
+.my_story {
+    padding: 20px 100px 20px 10
+    0px;
+}
+.about-me {
+  background-color: #FFF;
+  height: 900px;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+}
+.home-text {
+    width: 55%;
+}
+.about-p {
+    width: 100%;
+}
+.home-helper {
+    width: 250px;
+    margin: 20px;
+}
+
+
+
+.my-resume {
+  background-color: #D6E9FE;
+}
+.experience {
+    display: block;
+    height: 120%;
+    margin: auto;
+    width: 75%;
+}
+.resume,
+.projects {
+    justify-content: center;
+}
+.resume-block,
+.project-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.title {
+    font-weight: bold;
+    font-size: large;
+}
+.edu-p,
+.pro-p {
+    padding: 0px 10px;
+}
+article {
+  min-width: 0;
+}
+.skill-block {
+    justify-content: flex-start;
+    padding: 0px 40px;
+}
+
+
+
+.contact {
+    width: 80%;
+    margin: auto;
+}
+.contact-title {
+    margin: 20px 30%;
+    justify-content: center;
+
+}
+.contact-options,
+.contact-intro {
+    width: 40%;
+}
+.connection {
+    /*height: 50px;*/
+    justify-content: flex-start;
+    padding: 10px 40px;
+    min-height: 50px;
+}
+.contact-logo {
+    width: 30px;
+    margin: 10px 20px 10px 10px;
+}
+.contact-space {
+    width: 50%;
+}
+
+
+
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+}
+.photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.photo-grid-item {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item {
+    border: 1px solid #fff;
+    background-color:  #D6E9FE;
+    height: 200px;
+    flex: 1;
+}
+.footer-one,
+.footer-three {
+    background-color: #5995DA;
+    flex: initial;
+    width: 300px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: #F09A9D;
+    }
+    .contact-intro,
+    .contact-options,
+    .home-text,
+    .home-block, 
+    .home-helper {
+        width: 100%;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .experience {
+        height: 150%;
+  }
+  .links {
+        font-size: 16px
+  }
+  .contact-intro,
+  .contact-options,
+  .contact-title,
+  .home-text, 
+  .home-block {
+    width: 100%;
+  }
+  .header {
+      height: 600px;
+  }
+  h1 {
+      margin: 20px 100px;
+      text-align: center;
+  }
+  .home-helper {
+      width: 50%;
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .page {
+        width: 960px;
+        margin: 0 auto;
+    }
+    .header {
+        height: 400px;
+    }
+    .menu {
+        width: 960px;
+    }
+    .links {
+        width: 400px;
+    }
+}
