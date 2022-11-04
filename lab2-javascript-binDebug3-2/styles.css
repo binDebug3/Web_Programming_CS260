@@ -1,0 +1,146 @@
+:root {
+  --blue: #e1f8ff;
+  --white: #ffffff;
+}
+
+* {
+    font-family: Trebuchet MS;
+}
+body {
+    background-color: var(--blue);
+}
+p {
+    margin: 3px 0px;
+    font-size: 14px
+}
+h2 {
+    margin: 10px 0px;
+}
+a {
+    color: #111
+}
+a:hover {
+    color: #666;
+}
+a:active {
+    color: #000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: Trebuchet MS, sans-serif !important;
+}
+
+.header {
+    color: #111;
+    background-color: var(--blue);
+    /*background-color: #FFF;*/
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 10px 0px;
+}
+form {
+    color: #111;
+    background-color: var(--blue);
+    /*background-color: #FFF;*/
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+}
+#weatherSubmit {
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px 20px;
+}
+#instructions {
+    margin-right: 10px;
+}
+#weatherInput {
+    padding: 5px;
+    font-size: 16px
+}
+
+
+
+#weatherResults {
+    color: #111;
+    background-color: var(--blue);
+    /*background-color: #FFF;*/
+    text-align: center;
+    font-size: 24px;
+    margin: auto;
+}
+#todayWeather {
+    border-bottom: solid;
+    border-bottom-color: #111;
+    width: 500px;
+    margin: auto;
+    padding: 20px 0px;
+}
+#todayImg {
+    width: 100px;
+}
+
+#forecastResults {
+    color: #111;
+    background-color: var(--blue);
+    /*background-color: #FFF;*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 40px;
+}
+.date {
+    color: #111;
+    font-size: 20px;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+.day {
+    width: 220px;
+    margin: 15px 10px;
+    background-color: #FFF;
+    padding: 10px;
+    border-color: #FFF;
+    border-width: 10px;
+    border: solid;
+    border-radius: 25px;
+}
+.hour {
+    font-size: 24px;
+    text-align: center;
+    width: 120px;
+    margin: auto;
+    color: #333;
+}
+.time_block {
+    background-color: #FFF;
+}
+.cast_temp {
+    font-size: 32px;
+    text-align: center;
+    width: 100px;
+    margin: auto;
+    color: #000;
+}
+.castImg {
+    margin: 0px 75px;
+}
+.weather_desc {
+    margin: 0px 40px;
+    width: 120px;
+    text-align: center
+}
+
+
+
+footer {
+  text-align: center;
+  background-color: var(--blue);
+  /*background-color: #FFF;*/
+  /*position: fixed;*/
+  height: 50px;
+  padding: 20px;
+  font-size: small;
+}
